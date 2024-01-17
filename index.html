@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirArabia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .header-color {
+            background-color: #ce2029; /* Placeholder color */
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="header-color">
+    <div class="bg-cover bg-no-repeat bg-center h-screen" style="background-image: url('https://www.airarabia.com/sites/airarabia/files/gallery/G94367_India_Campaign_Digital_HPage.jpg');">
+        <nav class="header-color text-white text-sm lg:text-base px-4 py-2 flex justify-between items-center">
+            <div class="font-bold text-xl">AirArabia</div>
+            <div>
+                <a href="#" class="px-4 hover:text-gray-300">Plan</a>
+                <a href="#" class="px-4 hover:text-gray-300">Manage</a>
+                <a href="#" class="px-4 hover:text-gray-300">Check-In</a>
+                <a href="#" class="px-4 hover:text-gray-300">Destinations</a>
+                <a href="#" class="px-4 hover:text-gray-300">Help</a>
+                <a href="#" class="px-4 hover:text-gray-300">AirRewards</a>
+            </div>
+        </nav>
+
+        <div class="px-4 py-16">
+            <div class="max-w-3xl mx-auto bg-white bg-opacity-75 p-6">
+                <h2 class="text-3xl font-bold mb-2">Your next adventure awaits!</h2>
+                <p class="mb-4">Return fares from INR 22,827</p>
+                <button class="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700 transition duration-300">MORE DETAILS</button>
+            </div>
+        </div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-4 bg-white bg-opacity-75">
+            <div class="flex flex-col lg:flex-row justify-between items-center">
+                <div class="mb-4 lg:mb-0">
+                    <button class="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-sm hover:bg-red-700 transition duration-300">FLIGHTS</button>
+                    <button class="text-red-600 px-6 py-2 rounded-full border border-red-600 font-bold text-sm hover:bg-red-600 hover:text-white transition duration-300">FLIGHT + HOTEL</button>
+                    <button class="text-red-600 px-6 py-2 rounded-full border border-red-600 font-bold text-sm hover:bg-red-600 hover:text-white transition duration-300">HOLIDAY PACKAGES</button>
+                    <button class="text-red-600 px-6 py-2 rounded-full border border-red-600 font-bold text-sm hover:bg-red-600 hover:text-white transition duration-300">HOTELS</button>
+                    <button class="text-red-600 px-6 py-2 rounded-full border border-red-600 font-bold text-sm hover:bg-red-600 hover:text-white transition duration-300">CARS</button>
+                </div>
+                <div class="flex-grow bg-gray-200 p-4 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="flex-1 pr-2">
+                            <label class="block text-sm font-bold mb-2">From</label>
+                            <select class="w-full p-2 rounded-lg">
+                                <option>Delhi (DEL)</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 pl-2">
+                            <label class="block text-sm font-bold mb-2">To</label>
+                            <select class="w-full p-2 rounded-lg">
+                                <option>Select Destination</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between mt-4">
+                        <div class="flex items-center">
+                            <input type="radio" id="one-way" name="trip" class="mr-2" checked>
+                            <label for="one-way" class="text-sm font-bold mr-4">One way</label>
+                            <input type="radio" id="return" name="trip" class="mr-2">
+                            <label for="return" class="text-sm font-bold">Return</label>
+                        </div>
+                        <button class="bg-red-600 text-white px-8 py-3 rounded-lg font-bold text-sm hover:bg-red-700 transition duration-300">SEARCH & BOOK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Optional JavaScript can go here.
+    // For example, for handling the radio button change events or form submission.
+</script>
+</body>
+
+</html>
+
